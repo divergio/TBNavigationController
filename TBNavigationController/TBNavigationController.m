@@ -6,29 +6,19 @@
 
 #import "TBNavigationController.h"
 #import "UIBarButtonItem+UIBarButtonItem_CustomImage.h"
-#import "UIViewController+UIViewController_customBackBarButtonItem.h"
-
-@interface TBNavigationController ()
-
-
-@end
+#import "UIViewController+CustomBackBarButtonItem.h"
 
 @implementation TBNavigationController
 
 - (void) pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
+    //Get the custom back button from the pushing view controller
     UIBarButtonItem *customBack = [self.topViewController customBackBarButtonItem];
     customBack.target = self;
     customBack.action = @selector(goBack);
-        
-    viewController.navigationItem.leftBarButtonItem = customBack;
     
-    //This is optional, you can do other stuff here. 
-    if (viewController == self.topViewController) {
-        viewController.hidesBottomBarWhenPushed = NO;
-    }
-    else
-        viewController.hidesBottomBarWhenPushed = YES;
+    //Set it as the left bar button item for the pushed view controller
+    viewController.navigationItem.leftBarButtonItem = customBack;
     
     [super pushViewController:viewController animated:animated];
 }

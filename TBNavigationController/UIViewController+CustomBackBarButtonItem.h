@@ -6,7 +6,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (UIViewController_customBackBarButtonItem)
+@interface UIViewController (CustomBackBarButtonItem)
 
 @property (nonatomic, strong) UIBarButtonItem* customBackBarButtonItem;
 

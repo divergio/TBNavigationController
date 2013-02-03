@@ -3,6 +3,7 @@
 //
 //  Created by Tyler Barth on 2013-01-25.
 //
+// Trying this http://stackoverflow.com/a/13626345/1016515
 
 #import "UIBarButtonItem+UIBarButtonItem_CustomImage.h"
 
@@ -27,6 +28,7 @@
 
 + (UIBarButtonItem*) defaultBackButton
 {
+    //Set your default custom back button here.
     return [UIBarButtonItem barItemWithImage:[UIImage imageNamed:@"custom_back_button.png"] target:nil action:nil];
 }
 

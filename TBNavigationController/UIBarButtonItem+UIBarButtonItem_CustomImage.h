@@ -4,7 +4,7 @@
 //  Created by Tyler Barth on 2013-01-25.
 //
 //
-//Trying this http://stackoverflow.com/a/13626345/1016515
+// Trying this http://stackoverflow.com/a/13626345/1016515
 
 #import <UIKit/UIKit.h>
 

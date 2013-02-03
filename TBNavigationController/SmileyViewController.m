@@ -7,7 +7,7 @@
 //
 
 #import "SmileyViewController.h"
-#import "UIViewController+UIViewController_CustomBackBarButtonItem.h"
+#import "UIViewController+CustomBackBarButtonItem.h"
 #import "UIBarButtonItem+UIBarButtonItem_CustomImage.h"
 
 @interface SmileyViewController ()
@@ -25,8 +25,8 @@
     self.customBackBarButtonItem = [UIBarButtonItem barItemWithImage:[UIImage imageNamed:@"custom_back_smiley.png"] target:nil action:nil];
     
     //Inside a normal UINavigationController, this back button will be used.
-    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"custom_back_smiley.png"] style:UIBarButtonItemStylePlain target:nil action:nil];
-    
+    UIBarButtonItem *back = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"smiley"] style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = back;
 }
 
 @end

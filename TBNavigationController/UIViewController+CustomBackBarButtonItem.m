@@ -4,11 +4,11 @@
 //  Created by Tyler Barth on 2013-01-28.
 //
 
-#import "UIViewController+UIViewController_customBackBarButtonItem.h"
+#import "UIViewController+CustomBackBarButtonItem.h"
 #import "UIBarButtonItem+UIBarButtonItem_CustomImage.h"
 #import "objc/runtime.h"
 
-@implementation UIViewController (UIViewController_customBackBarButtonItem)
+@implementation UIViewController (CustomBackBarButtonItem)
 
 static char CUSTOM_BACK_KEY;
 
