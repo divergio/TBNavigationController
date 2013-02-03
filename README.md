@@ -74,6 +74,8 @@ UIViewController pushed from SmileyViewController
 
 There might still be a way to achieve the same effects without subclassing `UINavigationController`. I was experimenting with using transparent resizable images and the `UIAppearance` protocol, then setting the normal `backBarButtonItem` property with a `UIBarButtonItem` initialized with an image. I was able to get something closer to what `TBNavigationController` does, but the image was still resized and smaller, and required one to manually set the image for other button states (i.e. no automatic tint). This approach did have the advantage of the standard swipe animation, though. 
 
+One other thing, you could probably do this without subclassing UINavigationController by using the UINavigationControllerDelegate protocol. The only thing I'm worried about with that approach is it is probably less powerful in terms of adding animations. Anyway, I'm fairly certain that the way I subclassed UINavigationController is pretty safe, but if you are still afraid of subclassing it you could try implementing this functionality in a UINavigationController delegate.
+
 ## Known limitations
 
 This method loses the standard back button swiping animation, which is kind of a deal breaker for most people. 
