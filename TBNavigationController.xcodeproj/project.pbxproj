@@ -17,12 +17,6 @@
 		566B279E16BE4C5900A653EB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566B279D16BE4C5900A653EB /* Default@2x.png */; };
 		566B27A016BE4C5900A653EB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566B279F16BE4C5900A653EB /* Default-568h@2x.png */; };
 		566B27A316BE4C5900A653EB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566B27A116BE4C5900A653EB /* MainStoryboard.storyboard */; };
-		566B27A616BE4C5900A653EB /* TBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B27A516BE4C5900A653EB /* TBFirstViewController.m */; };
-		566B27A816BE4C5900A653EB /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 566B27A716BE4C5900A653EB /* first.png */; };
-		566B27AA16BE4C5900A653EB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566B27A916BE4C5900A653EB /* first@2x.png */; };
-		566B27AD16BE4C5900A653EB /* TBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B27AC16BE4C5900A653EB /* TBSecondViewController.m */; };
-		566B27AF16BE4C5900A653EB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 566B27AE16BE4C5900A653EB /* second.png */; };
-		566B27B116BE4C5900A653EB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566B27B016BE4C5900A653EB /* second@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +34,6 @@
 		566B279D16BE4C5900A653EB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		566B279F16BE4C5900A653EB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		566B27A216BE4C5900A653EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		566B27A416BE4C5900A653EB /* TBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBFirstViewController.h; sourceTree = "<group>"; };
-		566B27A516BE4C5900A653EB /* TBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBFirstViewController.m; sourceTree = "<group>"; };
-		566B27A716BE4C5900A653EB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		566B27A916BE4C5900A653EB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		566B27AB16BE4C5900A653EB /* TBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBSecondViewController.h; sourceTree = "<group>"; };
-		566B27AC16BE4C5900A653EB /* TBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBSecondViewController.m; sourceTree = "<group>"; };
-		566B27AE16BE4C5900A653EB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		566B27B016BE4C5900A653EB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,14 +83,6 @@
 				566B279816BE4C5900A653EB /* TBAppDelegate.h */,
 				566B279916BE4C5900A653EB /* TBAppDelegate.m */,
 				566B27A116BE4C5900A653EB /* MainStoryboard.storyboard */,
-				566B27A416BE4C5900A653EB /* TBFirstViewController.h */,
-				566B27A516BE4C5900A653EB /* TBFirstViewController.m */,
-				566B27A716BE4C5900A653EB /* first.png */,
-				566B27A916BE4C5900A653EB /* first@2x.png */,
-				566B27AB16BE4C5900A653EB /* TBSecondViewController.h */,
-				566B27AC16BE4C5900A653EB /* TBSecondViewController.m */,
-				566B27AE16BE4C5900A653EB /* second.png */,
-				566B27B016BE4C5900A653EB /* second@2x.png */,
 				566B279016BE4C5900A653EB /* Supporting Files */,
 			);
 			path = TBNavigationController;
@@ -181,10 +159,6 @@
 				566B279E16BE4C5900A653EB /* Default@2x.png in Resources */,
 				566B27A016BE4C5900A653EB /* Default-568h@2x.png in Resources */,
 				566B27A316BE4C5900A653EB /* MainStoryboard.storyboard in Resources */,
-				566B27A816BE4C5900A653EB /* first.png in Resources */,
-				566B27AA16BE4C5900A653EB /* first@2x.png in Resources */,
-				566B27AF16BE4C5900A653EB /* second.png in Resources */,
-				566B27B116BE4C5900A653EB /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +171,6 @@
 			files = (
 				566B279616BE4C5900A653EB /* main.m in Sources */,
 				566B279A16BE4C5900A653EB /* TBAppDelegate.m in Sources */,
-				566B27A616BE4C5900A653EB /* TBFirstViewController.m in Sources */,
-				566B27AD16BE4C5900A653EB /* TBSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
