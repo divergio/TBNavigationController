@@ -63,9 +63,11 @@ I thought I was kind of clever using my favorite new Objective-C feature, associ
 ###What does it look like?
 
 SmileyViewController
+
 ![smiley view controller](https://raw.github.com/divergio/TBNavigationController/master/screenshot_smiley.png)
 
 UIViewController pushed from SmileyViewController
+
 ![smiley view controller pushed](https://raw.github.com/divergio/TBNavigationController/master/screenshot_pushedfromsmiley.png)
 
 ###Any other nagging concerns?
