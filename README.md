@@ -1,6 +1,6 @@
 ##What is TBNavigationController
 
-TBNavigationController is a custom navigation controller that allows completely custom backBarButtonItems. It does this by not actually using the standard `backBarButtonItem`, which is limited by Apple to UIBarButtonItem's *without* custom views, but instead by faking it and using a `leftBarButtonItem`. 
+TBNavigationController is a custom navigation controller that allows completely custom backBarButtonItems. It does this by not actually using the standard `backBarButtonItem`, which is limited by Apple to UIBarButtonItem's **without** custom views, but instead by faking it and using a `leftBarButtonItem`. 
 
 ##I need a custom back bar button, what should I do?
 
@@ -18,9 +18,9 @@ If you want a completely custom view for your back button, but only want to have
 
 ##How does it work?
 
-If you need a `backBarButtonItem` that uses a custom view, normally you are out of luck. Despite the `navigationItem.backBarButtonItem` property being classed as a `UIBarButtonItem*`, Apple, in an apparent breach of abstraction, will ignore UIBarButtonItems with custom views. Your only hint to this is a little note tagged onto the discussion section of the `backBarButtonItem` in the `UINavigationItem` class reference, which states: 
+If you need a `backBarButtonItem` that uses a custom view, normally you are out of luck. Despite the `navigationItem.backBarButtonItem` property being classed as a `UIBarButtonItem*`, Apple, in an apparent breach of abstraction, will ignore UIBarButtonItems with custom views. Your only hint to this is a little note tagged onto the discussion section of the `backBarButtonItem` in Apple's `UINavigationItem` class reference, which states: 
 
-"When configuring your bar button item, do not assign a custom view to it; the navigation item ignores custom views in the back bar button anyway."
+**"When configuring your bar button item, do not assign a custom view to it; the navigation item ignores custom views in the back bar button anyway."**
 
 This has clearly tripped up a lot of people, as can be seen with the numerous stack overflow questions about their custom back bar button items being ignored. Anyway, it's Apple's API, so I'm sure they have their reasons.
 
