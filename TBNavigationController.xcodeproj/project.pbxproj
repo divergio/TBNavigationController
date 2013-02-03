@@ -17,6 +17,9 @@
 		566B279E16BE4C5900A653EB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566B279D16BE4C5900A653EB /* Default@2x.png */; };
 		566B27A016BE4C5900A653EB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566B279F16BE4C5900A653EB /* Default-568h@2x.png */; };
 		566B27A316BE4C5900A653EB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566B27A116BE4C5900A653EB /* MainStoryboard.storyboard */; };
+		566B27B916BE4D9600A653EB /* TBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B27B716BE4D9600A653EB /* TBNavigationController.m */; };
+		566B27BC16BE4DAB00A653EB /* UIBarButtonItem+UIBarButtonItem_CustomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B27BA16BE4DAB00A653EB /* UIBarButtonItem+UIBarButtonItem_CustomImage.m */; };
+		566B27BF16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B27BD16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,12 @@
 		566B279D16BE4C5900A653EB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		566B279F16BE4C5900A653EB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		566B27A216BE4C5900A653EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		566B27B716BE4D9600A653EB /* TBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBNavigationController.m; sourceTree = "<group>"; };
+		566B27B816BE4D9600A653EB /* TBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBNavigationController.h; sourceTree = "<group>"; };
+		566B27BA16BE4DAB00A653EB /* UIBarButtonItem+UIBarButtonItem_CustomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+UIBarButtonItem_CustomImage.m"; sourceTree = "<group>"; };
+		566B27BB16BE4DAB00A653EB /* UIBarButtonItem+UIBarButtonItem_CustomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+UIBarButtonItem_CustomImage.h"; sourceTree = "<group>"; };
+		566B27BD16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIViewController_CustomBackBarButtonItem.m"; sourceTree = "<group>"; };
+		566B27BE16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIViewController_CustomBackBarButtonItem.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +89,12 @@
 		566B278F16BE4C5900A653EB /* TBNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				566B27B716BE4D9600A653EB /* TBNavigationController.m */,
+				566B27B816BE4D9600A653EB /* TBNavigationController.h */,
+				566B27BA16BE4DAB00A653EB /* UIBarButtonItem+UIBarButtonItem_CustomImage.m */,
+				566B27BB16BE4DAB00A653EB /* UIBarButtonItem+UIBarButtonItem_CustomImage.h */,
+				566B27BD16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.m */,
+				566B27BE16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.h */,
 				566B279816BE4C5900A653EB /* TBAppDelegate.h */,
 				566B279916BE4C5900A653EB /* TBAppDelegate.m */,
 				566B27A116BE4C5900A653EB /* MainStoryboard.storyboard */,
@@ -171,6 +186,9 @@
 			files = (
 				566B279616BE4C5900A653EB /* main.m in Sources */,
 				566B279A16BE4C5900A653EB /* TBAppDelegate.m in Sources */,
+				566B27B916BE4D9600A653EB /* TBNavigationController.m in Sources */,
+				566B27BC16BE4DAB00A653EB /* UIBarButtonItem+UIBarButtonItem_CustomImage.m in Sources */,
+				566B27BF16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
