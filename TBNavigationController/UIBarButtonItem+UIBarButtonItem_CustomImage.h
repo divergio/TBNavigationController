@@ -10,6 +10,7 @@
 
 @interface UIBarButtonItem (UIBarButtonItem_CustomImage)
 + (UIBarButtonItem*)barItemWithImage:(UIImage*)image target:(id)target action:(SEL)action;
+
 + (UIBarButtonItem*) defaultBackButton;
 
 -(void)performBarButtonAction:(id)sender;

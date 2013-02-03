@@ -20,11 +20,10 @@
     UIBarButtonItem *customBack = [self.topViewController customBackBarButtonItem];
     customBack.target = self;
     customBack.action = @selector(goBack);
+        
+    viewController.navigationItem.leftBarButtonItem = customBack;
     
-    NSArray *leftItemsArray = [NSArray arrayWithObjects:customBack,[UIBarButtonItem buttonSeparator],nil];
-    
-    viewController.navigationItem.leftBarButtonItems = leftItemsArray;
-    
+    //This is optional, you can do other stuff here. 
     if (viewController == self.topViewController) {
         viewController.hidesBottomBarWhenPushed = NO;
     }

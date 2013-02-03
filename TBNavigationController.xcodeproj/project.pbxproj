@@ -20,6 +20,10 @@
 		566B27B916BE4D9600A653EB /* TBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B27B716BE4D9600A653EB /* TBNavigationController.m */; };
 		566B27BC16BE4DAB00A653EB /* UIBarButtonItem+UIBarButtonItem_CustomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B27BA16BE4DAB00A653EB /* UIBarButtonItem+UIBarButtonItem_CustomImage.m */; };
 		566B27BF16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B27BD16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.m */; };
+		566B27C116BE573A00A653EB /* custom_back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566B27C016BE573A00A653EB /* custom_back_button@2x.png */; };
+		566B27C416BE5A8700A653EB /* custom_back_smiley@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566B27C216BE5A8700A653EB /* custom_back_smiley@2x.png */; };
+		566B27C516BE5A8700A653EB /* smiley@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566B27C316BE5A8700A653EB /* smiley@2x.png */; };
+		566B27C816BE5B7E00A653EB /* SmileyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B27C716BE5B7E00A653EB /* SmileyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,11 @@
 		566B27BB16BE4DAB00A653EB /* UIBarButtonItem+UIBarButtonItem_CustomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+UIBarButtonItem_CustomImage.h"; sourceTree = "<group>"; };
 		566B27BD16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIViewController_CustomBackBarButtonItem.m"; sourceTree = "<group>"; };
 		566B27BE16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIViewController_CustomBackBarButtonItem.h"; sourceTree = "<group>"; };
+		566B27C016BE573A00A653EB /* custom_back_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "custom_back_button@2x.png"; sourceTree = "<group>"; };
+		566B27C216BE5A8700A653EB /* custom_back_smiley@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "custom_back_smiley@2x.png"; sourceTree = "<group>"; };
+		566B27C316BE5A8700A653EB /* smiley@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smiley@2x.png"; sourceTree = "<group>"; };
+		566B27C616BE5B7E00A653EB /* SmileyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileyViewController.h; sourceTree = "<group>"; };
+		566B27C716BE5B7E00A653EB /* SmileyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +107,11 @@
 				566B279816BE4C5900A653EB /* TBAppDelegate.h */,
 				566B279916BE4C5900A653EB /* TBAppDelegate.m */,
 				566B27A116BE4C5900A653EB /* MainStoryboard.storyboard */,
+				566B27C616BE5B7E00A653EB /* SmileyViewController.h */,
+				566B27C716BE5B7E00A653EB /* SmileyViewController.m */,
+				566B27C016BE573A00A653EB /* custom_back_button@2x.png */,
+				566B27C216BE5A8700A653EB /* custom_back_smiley@2x.png */,
+				566B27C316BE5A8700A653EB /* smiley@2x.png */,
 				566B279016BE4C5900A653EB /* Supporting Files */,
 			);
 			path = TBNavigationController;
@@ -174,6 +188,9 @@
 				566B279E16BE4C5900A653EB /* Default@2x.png in Resources */,
 				566B27A016BE4C5900A653EB /* Default-568h@2x.png in Resources */,
 				566B27A316BE4C5900A653EB /* MainStoryboard.storyboard in Resources */,
+				566B27C116BE573A00A653EB /* custom_back_button@2x.png in Resources */,
+				566B27C416BE5A8700A653EB /* custom_back_smiley@2x.png in Resources */,
+				566B27C516BE5A8700A653EB /* smiley@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +206,7 @@
 				566B27B916BE4D9600A653EB /* TBNavigationController.m in Sources */,
 				566B27BC16BE4DAB00A653EB /* UIBarButtonItem+UIBarButtonItem_CustomImage.m in Sources */,
 				566B27BF16BE4DB900A653EB /* UIViewController+UIViewController_CustomBackBarButtonItem.m in Sources */,
+				566B27C816BE5B7E00A653EB /* SmileyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

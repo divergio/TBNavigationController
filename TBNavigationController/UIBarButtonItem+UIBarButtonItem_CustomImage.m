@@ -25,17 +25,9 @@
     return b;
 }
 
-+ (UIBarButtonItem*) buttonSeparator
-{
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"line.png"]];
-                              
-    UIBarButtonItem *b = [[UIBarButtonItem alloc]initWithCustomView:imageView];
-    return b;
-}
-
 + (UIBarButtonItem*) defaultBackButton
 {
-    return [UIBarButtonItem barItemWithImage:[UIImage imageNamed:@"icon_back.png"] target:nil action:nil];
+    return [UIBarButtonItem barItemWithImage:[UIImage imageNamed:@"custom_back_button.png"] target:nil action:nil];
 }
 
 -(void)performBarButtonAction:(UIButton*)sender
